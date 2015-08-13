@@ -37,7 +37,7 @@ credentials when verified.
 
 Every request requires the Access Token to be passed through the header.
 
-    HEADER: Authorization your_access_token
+    HEADER: Authorization: your_access_token
 
 
 ## GET /api/users
@@ -46,7 +46,7 @@ Retrieve a list of registered Medivice Users who are members of the Medivice Cli
 
     METHOD: GET
     URL: https://medivice.com/api/users
-    HEADERS: Authorization your_access_token
+    HEADERS: Authorization: your_access_token
 
     RESPONSE:
     {
@@ -72,7 +72,7 @@ Retreive a single Medivice User's profile who is a member of the Medivice Clinic
 
     METHOD: GET
     URL: https://medivice.com/api/users/5a355ea3bacdbca5a6ca5
-    HEADERS: Authorization your_access_token
+    HEADERS: Authorization: your_access_token
 
     RESPONSE:
     {
@@ -96,7 +96,7 @@ Create a Medivice video chat session. A patient name and email is required.
 
     METHOD: POST
     URL: https://medivice.com/api/chat
-    HEADERS: Authorization your_access_token
+    HEADERS: Authorization: your_access_token
 
     BODY:
     {
