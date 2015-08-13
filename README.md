@@ -66,7 +66,7 @@ Retrieve a list of registered Medivice Users who are members of the Medivice Cli
     }
 
 
-## GET /api/user/{user_id}
+## GET /api/users/{user_id}
 
 Retreive a single Medivice User's profile who is a member of the Medivice Clinic.
 
